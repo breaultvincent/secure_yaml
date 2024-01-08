@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "secure_yaml/version"
 
 Gem::Specification.new do |s|
-  s.name        = "secure_yaml"
+  s.name        = "secure_yaml_2"
   s.version     = SecureYaml::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Huw Lewis"]
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{encryption protection for sensitive yaml properties}
   s.description = %q{encryption protection for sensitive yaml properties}
 
-  s.rubyforge_project = "secure_yaml"
+  s.rubyforge_project = "secure_yaml_2"
 
   s.files         = `git ls-files`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
