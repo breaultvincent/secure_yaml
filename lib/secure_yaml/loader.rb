@@ -9,7 +9,7 @@ module SecureYaml
     end
 
     def load(yaml_file)
-      @yaml_decrypter.decrypt(YAML::load(yaml_file))
+      @yaml_decrypter.decrypt(YAML::load(yaml_file, aliases: true))
     end
 
   end
